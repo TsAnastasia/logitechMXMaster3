@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logitech MX Master 3</title>
+  <link rel="icon" href="./images/mouse.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header section section_theme_graphite">
+      <a class="logo logo_place_header" href="./index.html"></a>
+      <button class="header__button-close desktop-hide" type="button"></button>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__item">
+            <a class="header__link" href="#bluetooth">
+              <span class="header__link-mobile">БЕЗ ПРОВОДОВ</span>
+              <span class="header__link-desctop">РАБОТАЙТЕ БЕЗ ПРОВОДОВ</span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#surface">
+              <span class="header__link-mobile">ЗА ЛЮБЫМ СТОЛОМ</span> 
+              <span class="header__link-desctop">ГДЕ УГОДНО</span>
+            </a>
+          </li>
+          <li class="header__item header__link_od_third">
+            <a class="header__link" href="#devices">
+              <span class="header__link-mobile">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</span> 
+              <span class="header__link-desctop">С РАЗНЫХ УСТРОЙСТВ</span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#setting">
+              <span class="header__link-mobile">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</span> 
+              <span class="header__link-desctop">В ЛЮБОЕ ВРЕМЯ</span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#comfort">
+              <span class="header__link-mobile">КОМФОРТНО. ЭРГОНОМИЧНО.&nbsp;ИНТУИТИВНО.</span> 
+              <span class="header__link-desctop">С КОМФОРТОМ</span>
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#quick">
+              <span class="header__link-mobile">БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</span> 
+              <span class="header__link-desctop">И ЕЩЕ БЫСТРЕЕ</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="page__content">
+      <main>
+        <section class="intro section section_theme_grey">
+          <a class="logo logo_place_intro desktop-hide"></a>
+          <button class="intro__button-menu desktop-hide" type="button"></button>
+          <div class="intro__image">
+            <h1 class="section__title">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h1>
+          </div>
+          <p class="section__text section__text_s_mobile-small section__text_s_tablet-small section__text_s_decktop-big">Создана для эффективной работы, программирования и творчества</p>
+          <a class="intro__arrow" href="#bluetooth"></a>
+        </section>
+        <section id="bluetooth" class="bluetooth section section_theme_light-grey">
+          <h2 class="section__title">БЕЗ ПРОВОДОВ</h2>
+          <p class="section__text">Беспроводная мышь MX Master 3 работает без проводов до нескольких месяцев. Вы закроете приоритетные задачи прежде, чем понадобится подзарядка.</p>
+          <p class="bluetooth__days"><span class="bluetooth__days-count">70</span><span>дней</span> </p>
+        </section>
+
+        <section id="surface" class="surface section">
+          <h2 class="section__title">ЗА ЛЮБЫМ СТОЛОМ</h2>
+          <p class="section__text section__text_s_mobile-small section__text_s_tablet-middle section__text_s_desktop-middle">Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3 достаточно компактная, чтобы сменить рабочее место и перенестись с ноутбуком на кухню.</p>
+          <ul class="surface-info">
+            <li class="surface-info__item">
+              <h3 class="surface-info__title">В 5 раз</h3>
+              <p class="surface-info__text">точнее предшественников</p>
+            </li>
+            <li class="surface-info__item">
+              <h3 class="surface-info__title">4000</h3>
+              <p class="surface-info__text">точек на дюйм чувствительность датчика</p>
+            </li>
+          </ul>
+          <div id="surfaceSliderIndicators" class="surface-slider carousel slide" data-bs-ride="carousel">
+            <ul class="surface-slider__list">
+              <li class="carousel-item active">
+                <div class="surface-slider__image surface-slider__image_t_wood active">
+                </div>
+              </li>
+              <li class="carousel-item">
+                <div class="surface-slider__image surface-slider__image_t_glass"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="surface-slider__image surface-slider__image_t_linoleum"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="surface-slider__image surface-slider__image_t_cloth"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="surface-slider__image surface-slider__image_t_marble"></div>
+              </li>
+            </ul>
+            <h3 class="surface-slider__title">Переключите поверхность</h3>
+            <div class="surface-slider__buttons">
+              <button class="surface-slider__control surface-slider__control_cl_switch surface-slider__control_t_prev" type="button" data-bs-target="#surfaceSliderIndicators"  data-bs-slide="prev">
+              </button>
+              <ul class="carousel-indicators surface-slider__indicators">
+                <li class="surface-slider__button">
+                  <button  class="surface-slider__control surface-slider__control_cl_indicator surface-slider__control_t_wood active" type="button" data-bs-target="#surfaceSliderIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                </li>
+                <li class="surface-slider__button">
+                  <button  class="surface-slider__control surface-slider__control_cl_indicator surface-slider__control_t_glass" type="button" data-bs-target="#surfaceSliderIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+                </li>
+                <li class="surface-slider__button">
+                  <button  class="surface-slider__control surface-slider__control_cl_indicator surface-slider__control_t_linoleum" type="button" data-bs-target="#surfaceSliderIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+                </li>
+                <li class="surface-slider__button">
+                  <button  class="surface-slider__control surface-slider__control_cl_indicator surface-slider__control_t_cloth" type="button" data-bs-target="#surfaceSliderIndicators" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
+                </li>
+                <li class="surface-slider__button">
+                  <button  class="surface-slider__control surface-slider__control_cl_indicator surface-slider__control_t_marble" type="button" data-bs-target="#surfaceSliderIndicators" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5"></button>
+                </li>
+              </ul>
+              <button class="surface-slider__control surface-slider__control_cl_switch surface-slider__control_t_next" type="button" data-bs-target="#surfaceSliderIndicators"  data-bs-slide="next">
+              </button>
+            </div>
+          </div>
+          <p class="section__text">Благодаря технологии Logitecch Darkfierd, MX&nbsp;Master 3 работает на любой поверхности, даже на стекле.</p>
+        </section>
+        <section id="devices" class="devices section section_theme_light-grey">
+          <h2 class="section__title">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</h2>
+          <p class="section__text section__text_s_tablet-middle section__text_s_desktop-big">С технологией Flow вы сможете работать одновременно на нескольких компьютерах, мгновенно переключаясь между разными операционными системами — даже между Windows&reg; и macOS. Например, достаточно скопировать текст, изображение или файл на MacBook и переместить его на Windows PC без задержек.
+            </p>
+          <p class="section__text section__text_s_tablet-middle section__text_s_desktop-big">
+            Клавиатура MX Keys отслеживает перемещение курсора мыши MX Master 3, благодаря чему ваш текст появится там, где вы работаете в текущий момент.</p>
+          <ol class="devices__list">
+            <li class="devices__item">
+              <p class="devices__item-text">1. Нажмите и удерживайте папку, чтобы переместить её</p>
+            </li>
+            <li class="devices__item">
+              <p class="devices__item-text">2. Перенесите папку на любой из соседних экранов</p>
+            </li>
+            <li class="devices__item devices__item_small">
+              <p class="devices__item-text devices__item-text_small">3. Да, всё так просто!</p>
+            </li>
+          </ol>
+        </section>
+        <section id="setting" class="setting section section_theme_light-grey">
+          <h2 class="section__title">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</h2>
+          <p class="section__text">Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря индивидуальным настройкам, вы сможете настроить кнопки и жесты практически под любое используемое приложение.</p>
+          <div id="mouseSetting" class="setting-slider carousel slide" data-bs-ride="carousel">
+            <ul class="setting-slider__list">
+              <li class="carousel-item active">
+                <div class="setting-slider__image setting-slider__image_t_mouse active">
+                </div>
+              </li>
+              <li class="carousel-item">
+                <div class="setting-slider__image setting-slider__image_t_button-switch"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="setting-slider__image setting-slider__image_t_button-sign"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="setting-slider__image setting-slider__image_t_up-down"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="setting-slider__image setting-slider__image_t_wheel-magspeed"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="setting-slider__image setting-slider__image_t_thumb-wheel"></div>
+              </li>
+            </ul>
+            <ul class="carousel-indicators setting-slider__indicators">
+              <li class="setting-slider__button">
+                <button  class="setting-slider__control active" type="button" data-bs-target="#mouseSetting" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+              </li>
+              <li class="setting-slider__button">
+                <button  class="setting-slider__control" type="button" data-bs-target="#mouseSetting" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+              </li>
+              <li class="setting-slider__button">
+                <button  class="setting-slider__control" type="button" data-bs-target="#mouseSetting" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+              </li>
+              <li class="setting-slider__button">
+                <button  class="setting-slider__control" type="button" data-bs-target="#mouseSetting" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
+              </li>
+              <li class="setting-slider__button">
+                <button  class="setting-slider__control" type="button" data-bs-target="#mouseSetting" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5"></button>
+              </li>
+              <li class="setting-slider__button">
+                <button  class="setting-slider__control" type="button" data-bs-target="#mouseSetting" data-bs-slide-to="5" aria-current="true" aria-label="Slide 6"></button>
+              </li>
+            </ul>
+          </div>
+          <div class="programs">
+            <ul class="programs__list">
+              <li class="programs__item">
+                <img class="programs__icon" src="./images/programs-ps.png" alt="photo shop">
+              </li>
+              <li class="programs__item">
+                <img class="programs__icon" src="./images/programs-pr.png" alt="premiere pro">
+              </li>
+              <li class="programs__item">
+                <img class="programs__icon" src="./images/programs-e.png" alt="browser">
+              </li>
+              <li class="programs__item">
+                <img class="programs__icon" src="./images/programs-w.png" alt="word">
+              </li>
+              <li class="programs__item">
+                <img class="programs__icon" src="./images/programs-p.png" alt="power point">
+              </li>
+              <li class="programs__item">
+                <img class="programs__icon" src="./images/programs-x.png" alt="excel">
+              </li>
+              <li class="programs__item">
+                <img class="programs__icon" src="./images/programs-fcp.png" alt="final cut pro">
+              </li>
+            </ul>
+            <p class="programs__text">Начните работать продуктивнее с момента покупки — устройство предварительно оптимизировано под популярные приложения на Windows и Mac.</p>
+          </div>
+        </section>
+        <section id="advantages" class="advantages section">
+          <article id="comfort" class="comfort advantages__article">
+            <div class="advantages__text">
+              <h2 class="section__title">КОМФОРТНО.<br> ЭРГОНОМИЧНО. ИНТУИТИВНО.</h2>
+              <p class="section__text ">Дизайн мыши MX Master 3 разработан так, чтобы с точностью повторять форму вашей ладони. Но не менее важны колесико прокрутки для большого пальца и расположение кнопок жестов, с которыми вы будете творить уверенно как никогда.</p>
+            </div>
+            <div class="advantages__image advantages__image_pl_comfort"></div>
+          </article>
+          <article id="quick" class="quick advantages__article">
+            <div class="advantages__text">
+              <h2 class="section__title">БЫСТРЕЕ,<br> ЧЕМ КОГДА-ЛИБО</h2>
+              <p class="section__text">Компьютерная мышь MX Master 3 предлагает ультимативный механизм прокрутки со скоростью 1000 строк за 1 секунду.<br>С точностью до пикселя. Бесшумно.</p>
+            </div>
+            <div class="advantages__image advantages__image_pl_quick"></div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer section section_theme_graphite">
+        <p class="footer__text">Copyright &copy; 2021 Logitech</p>
+        <p class="footer__text">Все права защищены</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="./scripts/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
