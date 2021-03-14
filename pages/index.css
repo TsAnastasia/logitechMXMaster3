@@ -1,2 +1,8 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
+
+/*TO DO*/
+@import url("../blocks/carousel/carousel.css");
+
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/__content/_hide/page__content_hide.css");
