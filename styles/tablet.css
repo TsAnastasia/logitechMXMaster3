@@ -1,28 +1,4 @@
 @media (min-width: 1024px){
-  .bluetooth{
-    padding-top: 55px;
-    padding-bottom: 0px;
-    background-size: 22px 40px;
-    background-position: center 40px;
-  }
-
-  .bluetooth__days{
-    padding: 0 0 120px 70px;
-    margin: 0;
-    font-size: 96px;
-    line-height: 112px;
-    background-image: none;
-    background-image: url("../images/bluetooth-desktop.png"), url("../images/bluetooth.png");
-    background-size: 520px, 670px;
-    background-position: left 125px, right bottom;
-  }
-
-  .bluetooth__days-count{
-    font-size: 300px;
-    line-height: 352px;
-    vertical-align: -145px;
-  }
-
   .surface{
     padding-bottom: 50px;
   }

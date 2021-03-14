@@ -1,0 +1,38 @@
+.bluetooth__days{
+  margin: 10px auto 0;
+  padding: 0 0 calc(220 / 375 * 100%);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  background-image: url("../images/bluetooth.png");
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+  .bluetooth__days{
+    margin-top: 50px;
+    padding-bottom: calc(420 / 895 * 100%);
+    font-size: 150px;
+    line-height: 176px;
+    background-size: calc(100% - 60px);
+  }
+}
+
+@media (min-width: 1024px){
+  .bluetooth__days{
+    padding: 0 0 120px 70px;
+    margin: 0;
+    font-size: 96px;
+    line-height: 112px;
+    background-image: none;
+    background-image: url("../images/bluetooth-desktop.png"), url("../images/bluetooth.png");
+    background-size: 520px, 670px;
+    background-position: left 125px, right bottom;
+  }
+}

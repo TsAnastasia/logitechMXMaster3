@@ -1,0 +1,7 @@
+@media (min-width: 1024px){
+  .bluetooth__days-count{
+    font-size: 300px;
+    line-height: 352px;
+    vertical-align: -145px;
+  }
+}

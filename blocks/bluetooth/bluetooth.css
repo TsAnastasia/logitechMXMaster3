@@ -1,0 +1,33 @@
+.bluetooth{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-image: url("../images/icon-bluetooth.svg");
+  background-size: 18px 34px;
+  background-position: center 40px;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+  .bluetooth{
+    padding-top: 80px;
+    padding-bottom: 0px;
+    background-size: 22px 40px;
+    background-position: center 80px;
+  }
+}
+
+@media (min-width: 1024px){
+  .bluetooth{
+    padding-top: 55px;
+    padding-bottom: 0px;
+    background-size: 22px 40px;
+    background-position: center 40px;
+  }
+}
+
+@media (min-width: 1281px){
+  .bluetooth{
+    padding-bottom: 30px;
+    background-position: center 80px;
+  }
+}

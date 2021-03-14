@@ -36,6 +36,9 @@
 @import url("../blocks/intro/__image/intro__image.css");
 @import url("../blocks/intro/__arrow/intro__arrow.css");
 
+@import url("../blocks/bluetooth/bluetooth.css");
+@import url("../blocks/bluetooth/__days/bluetooth__days.css");
+@import url("../blocks/bluetooth/__days-count/bluetooth__days-count.css");
 /*
 @media (min-width: 768px){
   

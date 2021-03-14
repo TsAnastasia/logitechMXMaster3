@@ -1,19 +1,4 @@
 @media (min-width: 768px){
-  .bluetooth{
-    padding-top: 80px;
-    padding-bottom: 0px;
-    background-size: 22px 40px;
-    background-position: center 80px;
-  }
-
-  .bluetooth__days{
-    margin-top: 50px;
-    padding-bottom: calc(420 / 895 * 100%);
-    font-size: 150px;
-    line-height: 176px;
-    background-size: calc(100% - 60px);
-  }
-
   .surface{
     padding-bottom: 30px;
   }
