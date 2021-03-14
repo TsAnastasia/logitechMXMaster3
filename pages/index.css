@@ -68,6 +68,11 @@
 @import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_marble.css");
 @import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_next.css");
 
+@import url("../blocks/devices/devices.css");
+@import url("../blocks/devices/__list/devices__list.css");
+@import url("../blocks/devices/__item/devices__item.css");
+@import url("../blocks/devices/__item-text/devices__item-text.css");
+@import url("../blocks/devices/__item-text/_small/devices__item-text_small.css");
 /*
 @media (min-width: 768px){
   

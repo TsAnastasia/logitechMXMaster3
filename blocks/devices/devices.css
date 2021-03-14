@@ -1,0 +1,27 @@
+.devices{
+  padding-bottom: calc(218 / 375 * 100%);
+  background-image: url("../../images/devices-mobile.png");
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+  .devices{
+    padding-bottom: calc(208 / 375 * 100%);
+    background-image: url("../../images/devices-target.png");
+  }
+}
+
+@media (min-width: 1024px){
+  .devices{
+    padding-bottom: calc(660 / 1280 * 100%);
+    background-image: url("../../images/devices-desktop.png");
+  }
+}
+
+@media (min-width: 1281px){
+  .devices{
+    padding-bottom: calc(583 / 1280 * 100%);
+  }
+}

@@ -1,21 +1,5 @@
 @media (min-width: 1024px){
-  .devices{
-    padding-bottom: calc(660 / 1280 * 100%);
-    background-image: url("../images/devices-desktop.png");
-  }
 
-  .devices__list{
-    margin-top: 60px;
-  }
-
-  .devices__item{
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .devices__item:first-child{
-    padding-left: 0;
-  }
 
   .setting{
     /* padding-bottom: calc(700 / 1280 * 100%); */

@@ -1,40 +1,4 @@
 @media (min-width: 768px){
-  .devices{
-    padding-bottom: calc(208 / 375 * 100%);
-    background-image: url("../images/devices-target.png");
-  }
-  
-  .devices__list{
-    margin-top: 30px;
-    flex-direction: row;
-  }
-  
-  .devices__item{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-    border-right: 1px solid #494949;
-  }
-
-  .devices__item:last-child{
-    padding-right: 0;
-    border-right: 0;
-  }
-  
-  .devices__item-text{
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 20px;
-    line-height: 23px;
-  }
-
-  .devices__item-text:not(.devices__item-text_small){
-    min-width: 290px;
-  }
-
-  .devices__item-text_small{
-    max-width: 135px;
-  }
 
   .setting{
     padding-bottom: 70px;

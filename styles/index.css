@@ -1,36 +1,3 @@
-.devices{
-  padding-bottom: calc(218 / 375 * 100%);
-  background-image: url("../images/devices-mobile.png");
-  background-position: center bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.devices__list{
-  margin: 17px 0 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 18px;
-}
-
-.devices__item{
-  margin: 0;
-  padding: 0;
-}
-
-.devices__item-text{
-  margin: 0 55px 0;
-  padding: 0;
-  max-width: 220px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-}
 
 .setting-slider__list{
   margin: 15px auto 20px;

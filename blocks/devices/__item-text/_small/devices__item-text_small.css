@@ -1,0 +1,9 @@
+@media (min-width: 768px){  
+  .devices__item-text_small{
+    max-width: 135px;
+  }
+
+  .devices__item-text:not(.devices__item-text_small){ 
+    min-width: 290px;
+  }
+}
