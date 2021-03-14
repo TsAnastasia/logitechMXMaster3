@@ -1,0 +1,263 @@
+@media (min-width: 1024px){
+  .logo{
+    margin: 0;
+    padding-left: 120px;
+    width: 150px;
+    height: 45px;
+  }
+
+  .header{
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__menu{
+    margin: 0;
+    padding-right: 60px;
+    flex-direction: row;
+  }
+
+  .header__item{
+    margin: 0;
+    padding-right: 22px;
+    padding-left: 22px; 
+    border-right: 1px solid #494949;
+  }
+
+  .header__item:first-child{
+    padding-left: 0;
+  }
+
+  .header__item:last-child{
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .header__link{
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .header__link:hover{
+    border-bottom: 1px solid #fff;
+  }
+
+  .header__link-mobile{
+    display: none;
+  }
+  
+  .header__link-desctop{
+    display: inline;
+  }
+
+  .intro{
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .intro__image{
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 0;
+    padding-bottom: calc(150 / 375 * 100%);
+  }
+
+  .intro__arrow{
+    margin-top: 25px;
+  }
+
+  .bluetooth{
+    padding-top: 55px;
+    padding-bottom: 0px;
+    background-size: 22px 40px;
+    background-position: center 40px;
+  }
+
+  .bluetooth__days{
+    padding: 0 0 120px 70px;
+    margin: 0;
+    font-size: 96px;
+    line-height: 112px;
+    background-image: none;
+    background-image: url("../images/bluetooth-desktop.png"), url("../images/bluetooth.png");
+    background-size: 520px, 670px;
+    background-position: left 125px, right bottom;
+  }
+
+  .bluetooth__days-count{
+    font-size: 300px;
+    line-height: 352px;
+    vertical-align: -145px;
+  }
+
+  .surface{
+    padding-bottom: 50px;
+  }
+
+  .surface-info{
+    margin-top: 40px;
+    margin-bottom: 50px; 
+  }
+
+  .surface-info__item{
+    max-width: 235px;
+    min-height: 140px;
+  }
+
+  .surface-info__title{
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .surface-info__text{
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .surface-slider__image{
+    padding-bottom: calc(570 / 1280 * 100%);
+  }
+
+  .surface-slider__image_t_wood{
+    background-image: url("../images/surface-desktop-wood.png");
+  }
+
+  .surface-slider__image_t_glass{
+    background-image: url("../images/surface-desktop-glass.png");
+  }
+
+  .surface-slider__image_t_linoleum{
+    background-image: url("../images/surface-desktop-linoleum.png");
+  }
+
+  .surface-slider__image_t_cloth{
+    background-image: url("../images/surface-desktop-cloth.png");
+  }
+
+  .surface-slider__image_t_marble{
+    background-image: url("../images/surface-desktop-marble.png");
+  }
+
+  .surface-slider__title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .surface-slider__buttons{
+    margin-bottom: 40px;
+  }
+
+  .devices{
+    padding-bottom: calc(660 / 1280 * 100%);
+    background-image: url("../images/devices-desktop.png");
+  }
+
+  .devices__list{
+    margin-top: 60px;
+  }
+
+  .devices__item{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .devices__item:first-child{
+    padding-left: 0;
+  }
+
+  .setting{
+    /* padding-bottom: calc(700 / 1280 * 100%); */
+    background-image: url("../images/settings.png");
+    background-size: calc(1170 / 1280 * 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .setting-slider{
+    display: none;
+  }
+
+  .programs{
+    margin-top: calc(685 / 1280 * 100%);
+  }
+
+  .advantages__article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advantages__article.comfort{
+    flex-direction: row-reverse;
+  }
+
+  .advantages__image{
+    margin-top: 0;
+    padding-bottom: calc(560 / 1280 * 100%);
+    width: 50%;
+  }
+
+  .advantages__image_pl_comfort{
+    background-image: url("../images/ad-comfort-desktop.png");
+  }
+
+  .advantages__image_pl_quick{
+    background-image: url("../images/ad-quick-descktop.png");
+  }
+
+  .advantages__text{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .advantages__text .page__section-title{
+    margin: 0 0 30px;
+    padding: 0;
+  }
+
+  .advantages__text .page__text{
+    margin: 0;
+    padding: 0;
+  }
+
+  .comfort .advantages__text{
+    justify-content: flex-start;
+    padding-left: 35px;
+    padding-right: 200px;
+  }
+
+  .comfort .advantages__text .page__section-title{
+    text-align: left;
+  }
+
+  .comfort .advantages__text .page__text{
+    text-align: left;
+  }
+
+  .quick .advantages__text{
+    justify-content: flex-end;
+    padding-left: 250px;
+    padding-right: 35px;
+  }
+
+  .quick .advantages__text .page__section-title{
+    text-align: right;
+  }
+
+  .quick .advantages__text .page__text{
+    text-align: right;
+  }
+
+}

@@ -1,0 +1,32 @@
+.page__section-title{
+  padding: 70px 10px 20px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  .page__section-title{
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
+@media (min-width: 1024px){
+  .page__section-title{
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media (min-width: 1281px){
+  .page__section-title{
+    padding-top: 100px;
+  }
+}

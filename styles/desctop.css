@@ -1,0 +1,33 @@
+@media (min-width: 1281px){
+  .intro{
+    padding-bottom: 80px;
+  }
+
+  .bluetooth{
+    padding-bottom: 30px;
+    background-position: center 80px;
+  }
+
+  .surface{
+    padding-bottom: 75px;
+  }
+
+  .devices{
+    padding-bottom: calc(583 / 1280 * 100%);
+  }
+
+
+  .setting {
+    background-size: 1170px;
+    padding-bottom: 95px;
+  }
+
+  .programs{
+    margin-top: 710px;
+  }
+
+  .advantages{
+    padding-top: 100px;
+    padding-bottom: 95px;
+  }
+}

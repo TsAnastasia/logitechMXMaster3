@@ -6,3 +6,15 @@
 
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/__content/_hide/page__content_hide.css");
+@import url("../blocks/page/__desktop-hide/page__desktop-hide.css");
+@import url("../blocks/page/__section/page__section.css");
+@import url("../blocks/page/__section/_theme/page__section_theme_graphite.css");
+@import url("../blocks/page/__section/_theme/page__section_theme_grey.css");
+@import url("../blocks/page/__section/_theme/page__section_theme_light-grey.css");
+@import url("../blocks/page/__section-title/page__section-title.css");
+@import url("../blocks/page/__text/page__text.css");
+@import url("../blocks/page/__text/_mobile/page__text_mobile_small.css");
+@import url("../blocks/page/__text/tablet/page__text_tablet_small.css");
+@import url("../blocks/page/__text/tablet/page__text_tablet_middle.css");
+@import url("../blocks/page/__text/_desktop/page__text_desktop_middle.css");
+@import url("../blocks/page/__text/_desktop/page__text_desktop_big.css");

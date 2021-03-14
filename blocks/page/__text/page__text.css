@@ -1,0 +1,29 @@
+.page__text{
+  margin: 0 auto;
+  padding: 0 35px 20px;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  .page__text{
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1024px){
+  .page__text{
+    padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 23px;
+    max-width: 750px;
+  }
+}

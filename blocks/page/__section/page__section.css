@@ -1,0 +1,10 @@
+.page__section{
+  margin: 0 auto;
+}
+
+@media (min-width: 1281px){
+  .page__section{
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
+  }
+}

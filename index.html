@@ -8,14 +8,14 @@
   <link rel="icon" href="./images/mouse.png">
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"> -->
-  <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
   <div class="page">
-    <header class="header section section_theme_graphite">
+    <header class="header page__section page__section_theme_graphite">
       <a class="logo logo_place_header" href="./index.html"></a>
-      <button class="header__button-close desktop-hide" type="button"></button>
+      <button class="header__button-close page__desktop-hide" type="button"></button>
       <nav class="header__nav">
         <ul class="header__menu">
           <li class="header__item">
@@ -59,24 +59,25 @@
 
     <div class="page__content">
       <main>
-        <section class="intro section section_theme_grey">
-          <a class="logo logo_place_intro desktop-hide"></a>
-          <button class="intro__button-menu desktop-hide" type="button"></button>
+        <section class="intro page__section page__section_theme_grey">
+          <a class="logo logo_place_intro page__desktop-hide"></a>
+          <button class="intro__button-menu page__desktop-hide" type="button"></button>
           <div class="intro__image">
-            <h1 class="section__title">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h1>
+            <h1 class="page__section-title">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</h1>
           </div>
-          <p class="section__text section__text_s_mobile-small section__text_s_tablet-small section__text_s_decktop-big">Создана для эффективной работы, программирования и творчества</p>
+          <p class="page__text page__text_mobile_small page__text_tablet_small page__text_desktop_big">Создана для эффективной работы, программирования и творчества</p>
           <a class="intro__arrow" href="#bluetooth"></a>
         </section>
-        <section id="bluetooth" class="bluetooth section section_theme_light-grey">
-          <h2 class="section__title">БЕЗ ПРОВОДОВ</h2>
-          <p class="section__text">Беспроводная мышь MX Master 3 работает без проводов до нескольких месяцев. Вы закроете приоритетные задачи прежде, чем понадобится подзарядка.</p>
+
+        <section id="bluetooth" class="bluetooth page__section page__section_theme_light-grey">
+          <h2 class="page__section-title">БЕЗ ПРОВОДОВ</h2>
+          <p class="page__text">Беспроводная мышь MX Master 3 работает без проводов до нескольких месяцев. Вы закроете приоритетные задачи прежде, чем понадобится подзарядка.</p>
           <p class="bluetooth__days"><span class="bluetooth__days-count">70</span><span>дней</span> </p>
         </section>
 
-        <section id="surface" class="surface section">
-          <h2 class="section__title">ЗА ЛЮБЫМ СТОЛОМ</h2>
-          <p class="section__text section__text_s_mobile-small section__text_s_tablet-middle section__text_s_desktop-middle">Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3 достаточно компактная, чтобы сменить рабочее место и перенестись с ноутбуком на кухню.</p>
+        <section id="surface" class="surface page__section">
+          <h2 class="page__section-title">ЗА ЛЮБЫМ СТОЛОМ</h2>
+          <p class="page__text page__text_mobile_small page__text_tablet_middle page__text_desktop_middle">Исследуйте ландшафты своего дома, не отвлекаясь от работы. MX Master 3 достаточно компактная, чтобы сменить рабочее место и перенестись с ноутбуком на кухню.</p>
           <ul class="surface-info">
             <li class="surface-info__item">
               <h3 class="surface-info__title">В 5 раз</h3>
@@ -131,13 +132,14 @@
               </button>
             </div>
           </div>
-          <p class="section__text">Благодаря технологии Logitecch Darkfierd, MX&nbsp;Master 3 работает на любой поверхности, даже на стекле.</p>
+          <p class="page__text">Благодаря технологии Logitecch Darkfierd, MX&nbsp;Master 3 работает на любой поверхности, даже на стекле.</p>
         </section>
-        <section id="devices" class="devices section section_theme_light-grey">
-          <h2 class="section__title">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</h2>
-          <p class="section__text section__text_s_tablet-middle section__text_s_desktop-big">С технологией Flow вы сможете работать одновременно на нескольких компьютерах, мгновенно переключаясь между разными операционными системами — даже между Windows&reg; и macOS. Например, достаточно скопировать текст, изображение или файл на MacBook и переместить его на Windows PC без задержек.
+
+        <section id="devices" class="devices page__section page__section_theme_light-grey">
+          <h2 class="page__section-title">ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</h2>
+          <p class="page__text page__text_tablet_middle page__text_desktop_big">С технологией Flow вы сможете работать одновременно на нескольких компьютерах, мгновенно переключаясь между разными операционными системами — даже между Windows&reg; и macOS. Например, достаточно скопировать текст, изображение или файл на MacBook и переместить его на Windows PC без задержек.
             </p>
-          <p class="section__text section__text_s_tablet-middle section__text_s_desktop-big">
+          <p class="page__text page__text_tablet_middle page__text_desktop_big">
             Клавиатура MX Keys отслеживает перемещение курсора мыши MX Master 3, благодаря чему ваш текст появится там, где вы работаете в текущий момент.</p>
           <ol class="devices__list">
             <li class="devices__item">
@@ -151,9 +153,10 @@
             </li>
           </ol>
         </section>
-        <section id="setting" class="setting section section_theme_light-grey">
-          <h2 class="section__title">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</h2>
-          <p class="section__text">Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря индивидуальным настройкам, вы сможете настроить кнопки и жесты практически под любое используемое приложение.</p>
+
+        <section id="setting" class="setting page__section page__section_theme_light-grey">
+          <h2 class="page__section-title">С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</h2>
+          <p class="page__text">Мышь MX Master 3 адаптируется под ваши рабочие процессы. Благодаря индивидуальным настройкам, вы сможете настроить кнопки и жесты практически под любое используемое приложение.</p>
           <div id="mouseSetting" class="setting-slider carousel slide" data-bs-ride="carousel">
             <ul class="setting-slider__list">
               <li class="carousel-item active">
@@ -224,25 +227,26 @@
             <p class="programs__text">Начните работать продуктивнее с момента покупки — устройство предварительно оптимизировано под популярные приложения на Windows и Mac.</p>
           </div>
         </section>
-        <section id="advantages" class="advantages section">
+
+        <section id="advantages" class="advantages page__section">
           <article id="comfort" class="comfort advantages__article">
             <div class="advantages__text">
-              <h2 class="section__title">КОМФОРТНО.<br> ЭРГОНОМИЧНО. ИНТУИТИВНО.</h2>
-              <p class="section__text ">Дизайн мыши MX Master 3 разработан так, чтобы с точностью повторять форму вашей ладони. Но не менее важны колесико прокрутки для большого пальца и расположение кнопок жестов, с которыми вы будете творить уверенно как никогда.</p>
+              <h2 class="page__section-title">КОМФОРТНО.<br> ЭРГОНОМИЧНО. ИНТУИТИВНО.</h2>
+              <p class="page__text ">Дизайн мыши MX Master 3 разработан так, чтобы с точностью повторять форму вашей ладони. Но не менее важны колесико прокрутки для большого пальца и расположение кнопок жестов, с которыми вы будете творить уверенно как никогда.</p>
             </div>
             <div class="advantages__image advantages__image_pl_comfort"></div>
           </article>
           <article id="quick" class="quick advantages__article">
             <div class="advantages__text">
-              <h2 class="section__title">БЫСТРЕЕ,<br> ЧЕМ КОГДА-ЛИБО</h2>
-              <p class="section__text">Компьютерная мышь MX Master 3 предлагает ультимативный механизм прокрутки со скоростью 1000 строк за 1 секунду.<br>С точностью до пикселя. Бесшумно.</p>
+              <h2 class="page__section-title">БЫСТРЕЕ,<br> ЧЕМ КОГДА-ЛИБО</h2>
+              <p class="page__text">Компьютерная мышь MX Master 3 предлагает ультимативный механизм прокрутки со скоростью 1000 строк за 1 секунду.<br>С точностью до пикселя. Бесшумно.</p>
             </div>
             <div class="advantages__image advantages__image_pl_quick"></div>
           </article>
         </section>
       </main>
 
-      <footer class="footer section section_theme_graphite">
+      <footer class="footer page__section page__section_theme_graphite">
         <p class="footer__text">Copyright &copy; 2021 Logitech</p>
         <p class="footer__text">Все права защищены</p>
       </footer>
