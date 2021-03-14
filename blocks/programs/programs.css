@@ -1,0 +1,28 @@
+.programs{
+  margin: 0 auto;
+  padding: 20px 10px 25px;
+  background-color: #c4c4c4;
+}
+
+@media (min-width: 768px){
+  .programs{
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    padding-right: 70px;
+    max-width: 765px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1024px){
+  .programs{
+    margin-top: calc(685 / 1280 * 100%);
+  }
+}
+
+@media (min-width: 1281px){
+  .programs{
+    margin-top: 710px;
+  }
+}

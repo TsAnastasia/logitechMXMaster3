@@ -1,0 +1,21 @@
+@media (min-width: 768px){
+  .setting{
+    padding-bottom: 70px;
+  }
+}
+
+@media (min-width: 1024px){
+  .setting{
+    background-image: url("../../images/settings.png");
+    background-size: calc(1170 / 1280 * 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1281px){
+  .setting {
+    background-size: 1170px;
+    padding-bottom: 95px;
+  }
+}

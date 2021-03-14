@@ -1,22 +1,5 @@
 @media (min-width: 1024px){
 
-
-  .setting{
-    /* padding-bottom: calc(700 / 1280 * 100%); */
-    background-image: url("../images/settings.png");
-    background-size: calc(1170 / 1280 * 100%);
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .setting-slider{
-    display: none;
-  }
-
-  .programs{
-    margin-top: calc(685 / 1280 * 100%);
-  }
-
   .advantages__article{
     display: flex;
     justify-content: center;

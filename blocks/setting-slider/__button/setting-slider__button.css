@@ -1,0 +1,9 @@
+.setting-slider__button{
+  height: 15px;
+}
+
+@media (min-width: 768px){
+  .setting-slider__button{
+    height: 25px;
+  }
+}

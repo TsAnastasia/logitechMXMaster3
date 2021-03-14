@@ -1,0 +1,16 @@
+.setting-slider__image{
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100%- 22px * 2);
+  max-width: 500px;
+  padding-bottom: calc(405 / 375 * 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 768px){
+  .setting-slider__image{
+    padding-bottom: 610px;
+  }
+}

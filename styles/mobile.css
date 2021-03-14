@@ -1,55 +1,5 @@
 @media (min-width: 768px){
 
-  .setting{
-    padding-bottom: 70px;
-  }
-
-  .setting-slider__list{
-    margin-top: 20px;
-    margin-bottom: 55px;
-  }
-
-  .setting-slider__image{
-    padding-bottom: 610px;
-  }
-
-  .setting-slider__indicators{
-    margin-bottom: 70px;
-    gap: 25px;
-  }
-  
-  .setting-slider__button{
-    height: 25px;
-  }
-  
-  .setting-slider__control{
-    width: 25px;
-    height: 25px;
-  }
-
-  .programs{
-    padding-top: 40px;
-    padding-left: 70px;
-    padding-bottom: 30px;
-    padding-right: 70px;
-    max-width: 765px;
-    box-sizing: border-box;
-  }
-
-  .programs__list{
-    gap: 35px;
-  }
-  
-  .programs__icon{
-    height: 35px; 
-  }
-  
-  .programs__text{
-    max-width: 100%;
-    font-size: 20px;
-    line-height: 23px;
-  }
-
   .advantages__image{
     margin-top: 20px;
     padding-bottom: calc(550 / 895 * 100%);

@@ -73,6 +73,27 @@
 @import url("../blocks/devices/__item/devices__item.css");
 @import url("../blocks/devices/__item-text/devices__item-text.css");
 @import url("../blocks/devices/__item-text/_small/devices__item-text_small.css");
+
+@import url("../blocks/setting/setting.css");
+
+@import url("../blocks/setting-slider/setting-slider.css");
+@import url("../blocks/setting-slider/__list/setting-slider__list.css");
+@import url("../blocks/setting-slider/__image/setting-slider__image.css");
+@import url("../blocks/setting-slider/__image/_t/setting-slider__image_t_mouse.css");
+@import url("../blocks/setting-slider/__image/_t/setting-slider__image_t_button-switch.css");
+@import url("../blocks/setting-slider/__image/_t/setting-slider__image_t_button-sign.css");
+@import url("../blocks/setting-slider/__image/_t/setting-slider__image_t_up-down.css");
+@import url("../blocks/setting-slider/__image/_t/setting-slider__image_t_wheel-magspeed.css");
+@import url("../blocks/setting-slider/__image/_t/setting-slider__image_t_thumb-wheel.css");
+@import url("../blocks/setting-slider/__indicators/setting-slider__indicators.css");
+@import url("../blocks/setting-slider/__button/setting-slider__button.css");
+@import url("../blocks/setting-slider/__control/setting-slider__control.css");
+
+@import url("../blocks/programs/programs.css");
+@import url("../blocks/programs/__list/programs__list.css");
+@import url("../blocks/programs/__icon/programs__icon.css");
+@import url("../blocks/programs/__text/programs__text.css");
+
 /*
 @media (min-width: 768px){
   

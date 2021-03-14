@@ -1,0 +1,20 @@
+.programs__text{
+  margin: 0 auto;
+  padding: 0;
+  max-width: 300px;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 768px){
+  .programs__text{
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}

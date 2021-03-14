@@ -1,0 +1,21 @@
+.setting-slider__control{
+  margin: 0;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+
+.setting-slider__control.active{
+  background-color: #2f3132;
+}
+
+@media (min-width: 768px){
+  .setting-slider__control{
+    width: 25px;
+    height: 25px;
+  }
+}

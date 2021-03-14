@@ -1,0 +1,12 @@
+.setting-slider__list{
+  margin: 15px auto 20px;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 768px){
+  .setting-slider__list{
+    margin-top: 20px;
+    margin-bottom: 55px;
+  }
+}

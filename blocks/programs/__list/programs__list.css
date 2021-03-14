@@ -1,0 +1,15 @@
+.programs__list{
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+@media (min-width: 768px){
+  .programs__list{
+    gap: 35px;
+  }
+}

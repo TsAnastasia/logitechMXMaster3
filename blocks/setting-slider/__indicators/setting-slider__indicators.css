@@ -1,0 +1,16 @@
+.setting-slider__indicators{
+  margin: 0 auto 60px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (min-width: 768px){
+  .setting-slider__indicators{
+    margin-bottom: 70px;
+    gap: 25px;
+  }
+}
