@@ -1,0 +1,5 @@
+@media (min-width: 1024px){
+  .advantages__article_reverse{
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,15 @@
+.advantages__image_pl_quick{
+  background-image: url("../../../../images/ad-quick-mobile.jpg");
+}
+
+@media (min-width: 768px){
+  .advantages__image_pl_quick{
+    background-image: url("../../../../images/ad-quick-tablet.jpg");
+  }
+}
+
+@media (min-width: 1024px){
+  .advantages__image_pl_quick{
+    background-image: url("../../../../images/ad-quick-descktop.png");
+  }
+}

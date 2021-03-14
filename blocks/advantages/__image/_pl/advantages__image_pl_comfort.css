@@ -1,0 +1,15 @@
+.advantages__image_pl_comfort{
+  background-image: url("../../../../images/ad-comfort-mobile.jpg");
+}
+
+@media (min-width: 768px){
+  .advantages__image_pl_comfort{
+    background-image: url("../../../../images/ad-comfort-tablet.jpg");
+  }
+}
+
+@media (min-width: 1024px){
+  .advantages__image_pl_comfort{
+    background-image: url("../../../../images/ad-comfort-desktop.png");
+  }
+}

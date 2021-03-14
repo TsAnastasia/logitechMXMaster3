@@ -94,16 +94,18 @@
 @import url("../blocks/programs/__icon/programs__icon.css");
 @import url("../blocks/programs/__text/programs__text.css");
 
-/*
-@media (min-width: 768px){
-  
-}
-
-@media (min-width: 1024px){
-  
-}
-
-@media (min-width: 1281px){
-
-}
-*/
+@import url("../blocks/advantages/advantages.css");
+@import url("../blocks/advantages/__article/advantages__article.css");
+@import url("../blocks/advantages/__article/_reverse/advantages__article_reverse.css");
+@import url("../blocks/advantages/__info/advantages__info.css");
+@import url("../blocks/advantages/__info/_side/advantages__info_side_left.css");
+@import url("../blocks/advantages/__info/_side/advantages__info_side_right.css");
+@import url("../blocks/advantages/__title/advantages__title.css");
+@import url("../blocks/advantages/__title/_side/advantages__title_side_left.css");
+@import url("../blocks/advantages/__title/_side/advantages__title_side_right.css");
+@import url("../blocks/advantages/__text/advantages__text.css");
+@import url("../blocks/advantages/__text/_side/advantages__text_side_left.css");
+@import url("../blocks/advantages/__text/_side/advantages__text_side_right.css");
+@import url("../blocks/advantages/__image/advantages__image.css");
+@import url("../blocks/advantages/__image/_pl/advantages__image_pl_comfort.css");
+@import url("../blocks/advantages/__image/_pl/advantages__image_pl_quick.css");

@@ -1,0 +1,7 @@
+@media (min-width: 1024px){
+  .advantages__info_side_right{
+    justify-content: flex-end;
+    padding-left: 250px;
+    padding-right: 35px;
+  }
+}

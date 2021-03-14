@@ -1,0 +1,5 @@
+@media (min-width: 1024px){
+  .advantages__text_side_right{
+    text-align: right;
+  }
+}
