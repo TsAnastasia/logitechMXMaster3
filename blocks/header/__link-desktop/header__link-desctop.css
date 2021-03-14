@@ -1,0 +1,9 @@
+.header__link-desktop{
+  display: none;
+}
+
+@media (min-width: 1024px){
+  .header__link-desktop{
+    display: inline;
+  }
+}

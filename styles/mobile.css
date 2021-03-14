@@ -1,32 +1,4 @@
 @media (min-width: 768px){
-
-  .header{
-    padding-top: 65px;
-    padding-bottom: 140px;
-  }
-
-  .header__button-close{
-    top: 60px;
-    right: 85px;
-    width: 50px;
-    height: 50px;
-  }
-
-  .header__menu{
-    margin-top: 90px;
-    margin-left: 35px;
-    margin-right: 35px;
-  }
-
-  .header__item{
-    margin: 30px;
-  }
-  
-  .header__link{
-    font-size: 40px;
-    line-height: 47px;
-  }
-
   .intro{
     padding-top: 55px;
     padding-bottom: 80px;

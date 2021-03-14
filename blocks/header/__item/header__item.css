@@ -1,0 +1,27 @@
+.header__item{
+  margin: 30px auto 0;
+}
+
+@media (min-width: 768px){
+  .header__item{
+    margin: 30px auto;
+  }
+}
+
+@media (min-width: 1024px){
+  .header__item{
+    margin: 0;
+    padding-right: 22px;
+    padding-left: 22px; 
+    border-right: 1px solid #494949;
+  }
+
+  .header__item:first-child{
+    padding-left: 0;
+  }
+
+  .header__item:last-child{
+    padding-right: 0;
+    border-right: 0;
+  }
+}

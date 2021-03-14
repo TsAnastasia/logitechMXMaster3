@@ -1,0 +1,10 @@
+.header__link-mobile{
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1024px){
+  .header__link-mobile{
+    display: none;
+  }
+}

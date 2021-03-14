@@ -1,0 +1,26 @@
+.header__button-close{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 22px;
+  right: 25px;
+  width: 25px;
+  height: 25px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  background-image: url("../../../images/icon-close.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 768px){
+  .header__button-close{
+    top: 60px;
+    right: 85px;
+    width: 50px;
+    height: 50px;
+  }
+}
