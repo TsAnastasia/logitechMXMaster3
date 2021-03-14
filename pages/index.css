@@ -18,3 +18,6 @@
 @import url("../blocks/page/__text/tablet/page__text_tablet_middle.css");
 @import url("../blocks/page/__text/_desktop/page__text_desktop_middle.css");
 @import url("../blocks/page/__text/_desktop/page__text_desktop_big.css");
+@import url("../blocks/page/__logo/page__logo.css");
+@import url("../blocks/page/__logo/_theme/page__logo_theme_dark.css");
+@import url("../blocks/page/__logo/_theme/page__logo_theme_light.css");

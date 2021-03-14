@@ -1,0 +1,26 @@
+.page__logo{
+  margin: 0 auto;
+  padding: 0;
+  width: 130px;
+  height: 40px;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+  .page__logo{
+    width: 240px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1024px){
+  .page__logo{
+    margin: 0;
+    padding-left: 120px;
+    width: 150px;
+    height: 45px;
+  }
+}

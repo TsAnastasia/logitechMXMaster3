@@ -1,22 +1,3 @@
-.logo{
-  margin: 0 auto;
-  padding: 0;
-  width: 130px;
-  height: 40px;
-  display: block;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.logo_place_header{
-  background-image: url("../images/logo-light.svg");
-}
-
-.logo_place_intro{
-  background-image: url("../images/logo-dark.svg");
-}
-
 .header{
   padding-top: 25px;
   padding-bottom: 210px;
