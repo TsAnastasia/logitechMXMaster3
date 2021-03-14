@@ -1,0 +1,25 @@
+.intro__image{
+  margin-top: 22px;
+  margin-bottom: 67px;
+  padding-bottom: calc(190 / 375 * 100%);
+  background-image: url("../../../images/intro.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+@media (min-width: 768px){ 
+  .intro__image{
+    margin-top: 92px;
+    margin-bottom: 110px;
+  }
+}
+
+@media (min-width: 1024px){
+  .intro__image{
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 0;
+    padding-bottom: calc(150 / 375 * 100%);
+  }
+}

@@ -29,8 +29,12 @@
 @import url("../blocks/header/__item/header__item.css");
 @import url("../blocks/header/__link/header__link.css");
 @import url("../blocks/header/__link-mobile/header__link-mobile.css");
-@import url("../blocks/header/__link-desktop/header__link-desctop.css");
+@import url("../blocks/header/__link-desktop/header__link-desktop.css");
 
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__button-menu/intro__button-menu.css");
+@import url("../blocks/intro/__image/intro__image.css");
+@import url("../blocks/intro/__arrow/intro__arrow.css");
 
 /*
 @media (min-width: 768px){

@@ -1,5 +1,5 @@
 @media (min-width: 1024px){
   .page__desktop-hide{
-    display: none;
+    display: none !important;
   }
 }

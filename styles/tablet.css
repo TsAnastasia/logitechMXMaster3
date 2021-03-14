@@ -1,20 +1,4 @@
 @media (min-width: 1024px){
-  .intro{
-    padding-top: 0;
-    padding-bottom: 60px;
-  }
-
-  .intro__image{
-    margin-top: 0;
-    margin-bottom: 15px;
-    padding-top: 0;
-    padding-bottom: calc(150 / 375 * 100%);
-  }
-
-  .intro__arrow{
-    margin-top: 25px;
-  }
-
   .bluetooth{
     padding-top: 55px;
     padding-bottom: 0px;

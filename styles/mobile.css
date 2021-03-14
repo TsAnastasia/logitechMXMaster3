@@ -1,27 +1,4 @@
 @media (min-width: 768px){
-  .intro{
-    padding-top: 55px;
-    padding-bottom: 80px;
-  }
-
-  .intro__button-menu{
-    width: 60px;
-    height: 40px;
-    top: 50px;
-    right: 60px;
-  }
-
-  .intro__image{
-    margin-top: 92px;
-    margin-bottom: 110px;
-  }
-
-  .intro__arrow{
-    width: 60px;
-    height: 35px;
-    margin-top: 40px;
-  }
-
   .bluetooth{
     padding-top: 80px;
     padding-bottom: 0px;

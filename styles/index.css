@@ -1,46 +1,4 @@
-.intro{
-  padding-top: 25px;
-  padding-bottom: 48px;
-  position: relative;
-}
 
-.intro__button-menu{
-  width: 30px;
-  height: 16px;
-  position: absolute;
-  top: 25px;
-  right: 28px;
-  outline: 0;
-  border: 0;
-  border-radius: 0;
-  background-color: transparent;
-  background-image: url("../images/icon-menu.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.intro__image{
-  margin-top: 22px;
-  margin-bottom: 67px;
-  padding-bottom: calc(190 / 375 * 100%);
-  background-image: url("../images/intro.png");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
-}
-
-.intro__arrow{
-  margin: 20px auto 0;
-  padding: 0;
-  display: block;
-  width: 40px;
-  height: 20px;
-  background-image: url("../images/icon-arrow.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .bluetooth{
   padding-top: 30px;
