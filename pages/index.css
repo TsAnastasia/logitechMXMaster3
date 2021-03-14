@@ -109,3 +109,6 @@
 @import url("../blocks/advantages/__image/advantages__image.css");
 @import url("../blocks/advantages/__image/_pl/advantages__image_pl_comfort.css");
 @import url("../blocks/advantages/__image/_pl/advantages__image_pl_quick.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__text/footer__text.css");
