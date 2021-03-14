@@ -1,0 +1,12 @@
+.surface-slider__control_cl_indicator{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px){
+  .surface-slider__control_cl_indicator{
+    width: 40px;
+    height: 40px;
+  }
+}

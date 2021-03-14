@@ -1,13 +1,4 @@
 @media (min-width: 1281px){
-  .bluetooth{
-    padding-bottom: 30px;
-    background-position: center 80px;
-  }
-
-  .surface{
-    padding-bottom: 75px;
-  }
-
   .devices{
     padding-bottom: calc(583 / 1280 * 100%);
   }

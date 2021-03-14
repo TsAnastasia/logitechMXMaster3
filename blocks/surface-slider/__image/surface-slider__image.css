@@ -1,0 +1,15 @@
+.surface-slider__image{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding-bottom: calc(240 / 375 * 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1024px){
+  .surface-slider__image{
+    padding-bottom: calc(570 / 1280 * 100%);
+  }
+}

@@ -1,0 +1,21 @@
+.surface{
+  padding-bottom: 40px;
+}
+
+@media (min-width: 768px){
+  .surface{
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px){
+  .surface{
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 1281px){
+  .surface{
+    padding-bottom: 75px;
+  }
+}

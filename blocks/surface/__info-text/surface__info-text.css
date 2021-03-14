@@ -1,0 +1,22 @@
+.surface__info-text{
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media (min-width: 768px){
+  .surface__info-text{
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1024px){
+  .surface__info-text{
+    font-size: 20px;
+    line-height: 23px;
+  }
+}

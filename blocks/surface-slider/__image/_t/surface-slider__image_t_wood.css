@@ -1,0 +1,9 @@
+.surface-slider__image_t_wood{
+  background-image: url("../../../../images/surface-mobile-wood.jpg");
+}
+
+@media (min-width: 1024px){
+  .surface-slider__image_t_wood{
+    background-image: url("../../../../images/surface-desktop-wood.png");
+  }
+}

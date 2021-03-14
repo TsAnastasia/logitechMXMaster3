@@ -39,6 +39,35 @@
 @import url("../blocks/bluetooth/bluetooth.css");
 @import url("../blocks/bluetooth/__days/bluetooth__days.css");
 @import url("../blocks/bluetooth/__days-count/bluetooth__days-count.css");
+
+@import url("../blocks/surface/surface.css");
+@import url("../blocks/surface/__info/surface__info.css");
+@import url("../blocks/surface/__info-item/surface__info-item.css");
+@import url("../blocks/surface/__info-title/surface__info-title.css");
+@import url("../blocks/surface/__info-text/surface__info-text.css");
+
+@import url("../blocks/surface-slider/__list/surface-slider__list.css");
+@import url("../blocks/surface-slider/__image/surface-slider__image.css");
+@import url("../blocks/surface-slider/__image/_t/surface-slider__image_t_wood.css");
+@import url("../blocks/surface-slider/__image/_t/surface-slider__image_t_glass.css");
+@import url("../blocks/surface-slider/__image/_t/surface-slider__image_t_linoleum.css");
+@import url("../blocks/surface-slider/__image/_t/surface-slider__image_t_cloth.css");
+@import url("../blocks/surface-slider/__image/_t/surface-slider__image_t_marble.css");
+@import url("../blocks/surface-slider/__title/surface-slider__title.css");
+@import url("../blocks/surface-slider/__buttons/surface-slider__buttons.css");
+@import url("../blocks/surface-slider/__indicators/surface-slider__indicators.css");
+@import url("../blocks/surface-slider/__button/surface-slider__button.css");
+@import url("../blocks/surface-slider/__control/surface-slider__control.css");
+@import url("../blocks/surface-slider/__control/_cl/surface-slider__control_cl_switch.css");
+@import url("../blocks/surface-slider/__control/_cl/surface-slider__control_cl_indicator.css");
+@import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_prev.css");
+@import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_wood.css");
+@import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_glass.css");
+@import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_linoleum.css");
+@import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_cloth.css");
+@import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_marble.css");
+@import url("../blocks/surface-slider/__control/_t/surface-slider__control_t_next.css");
+
 /*
 @media (min-width: 768px){
   

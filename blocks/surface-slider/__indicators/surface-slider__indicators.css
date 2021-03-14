@@ -1,0 +1,17 @@
+.surface-slider__indicators{
+  margin: 0 23px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 23px;
+}
+
+@media (min-width: 768px){
+  .surface-slider__indicators{
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 30px;
+  }
+}

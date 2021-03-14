@@ -1,0 +1,20 @@
+.surface-slider__buttons{
+  margin: 0 auto 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+@media (min-width: 768px){
+  .surface-slider__buttons{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px){
+  .surface-slider__buttons{
+    margin-bottom: 40px;
+  }
+}

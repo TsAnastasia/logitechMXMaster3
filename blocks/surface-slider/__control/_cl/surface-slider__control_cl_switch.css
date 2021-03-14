@@ -1,0 +1,12 @@
+.surface-slider__control_cl_switch{
+  width: 9px;
+  height: 18px;
+  border-radius: 0;
+}
+
+@media (min-width: 768px){
+  .surface-slider__control_cl_switch{
+    width: 15px;
+    height: 30px;
+  }
+}

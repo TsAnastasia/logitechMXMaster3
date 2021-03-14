@@ -1,0 +1,11 @@
+.surface-slider__button{
+  margin: 0;
+  padding: 0;
+  height: 30px;
+}
+
+@media (min-width: 768px){
+  .surface-slider__button{
+    height: 40px;
+  }
+}

@@ -1,0 +1,27 @@
+.surface__info-item{
+  margin: 0;
+  padding: 5px;
+  max-width: 155px;
+  min-height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  border: 1px solid #2f3132;
+}
+
+@media (min-width: 768px){
+  .surface__info-item{
+    padding: 0; 
+    max-width: 300px;
+    min-height: 170px;
+  }
+}
+
+@media (min-width: 1024px){
+  .surface__info-item{
+    max-width: 235px;
+    min-height: 140px;
+  }
+}
