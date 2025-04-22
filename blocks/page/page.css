@@ -1,4 +1,8 @@
-.page{
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
   margin: 0 auto;
   position: relative;
   color: #2f3132;
